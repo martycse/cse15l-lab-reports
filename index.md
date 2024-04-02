@@ -14,7 +14,7 @@ CSE15L
 3. Three
 Horizontal Rule:
 ---
-'Inline Code' with backticks
+`Inline Code` with backticks
 
 ```
 # code block
