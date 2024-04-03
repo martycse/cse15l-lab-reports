@@ -3,46 +3,60 @@
 ## CD - no arguments
 
 **Result**
-<img width="491" alt="Screenshot 2024-04-03 at 2 28 25 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/749253a7-3164-4c9d-ab38-5dac7e5c5e72">
+
+<img width="498" alt="Screenshot 2024-04-03 at 3 08 37 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/99317668-5110-462f-bac7-da391d5abc0a">
 
 ## CD - Directory
 
 **Result**
-<img width="491" alt="Screenshot 2024-04-03 at 2 30 43 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/685503de-e4b9-4062-92cd-7c27758b0007">
+
+
+<img width="498" alt="Screenshot 2024-04-03 at 3 08 57 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/33c8c066-7bd8-42b0-9134-02b96461180a">
 
 ## CD - File
 
 **Result**
-<img width="498" alt="Screenshot 2024-04-03 at 2 30 57 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/6dcb34da-a785-42bb-ac8d-0677ff6662e8">
+
+<img width="505" alt="Screenshot 2024-04-03 at 3 10 17 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/57b5935d-5789-479e-b94b-952ee8646eb1">
 
 ## LS - No Arguments
 
 **Result**
-<img width="441" alt="Screenshot 2024-04-03 at 2 27 03 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/79a38a62-bd40-4f0f-a948-ad38c31a5298">
+
+<img width="505" alt="Screenshot 2024-04-03 at 3 10 36 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/db6bb4cd-292f-41a0-80ed-54ba4803de19">
+
 
 ## LS - Directory
 
 **Result**
-<img width="491" alt="Screenshot 2024-04-03 at 2 27 37 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/4125c33c-327f-449d-a84f-bc7c5f51fc09">
+
+<img width="505" alt="Screenshot 2024-04-03 at 3 11 16 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/96485e30-c4cd-4c13-aa02-42192012e4a5">
+
 
 ## LS - File
 
 **Result**
-<img width="491" alt="Screenshot 2024-04-03 at 2 27 57 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/86498a86-6b5f-4dd6-8855-6f8204e733c6">
+
+<img width="505" alt="Screenshot 2024-04-03 at 3 11 47 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/1e063b84-3bbc-4cef-8116-129106c602ce">
 
 ## Cat - No arguments
 
 **Result**
-<img width="596" alt="Screenshot 2024-04-03 at 2 18 38 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/0fa35a6f-a2a4-4313-8ab1-1e5e672e2421">
+
+<img width="505" alt="Screenshot 2024-04-03 at 3 12 12 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/a636b315-dc84-41ff-8757-a944814255cb">
+
 
 ## Cat - Directoy
 
 **Result**
-<img width="476" alt="Screenshot 2024-04-03 at 2 23 21 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/454e44b4-be2b-4ceb-96e6-96e6c2b640bc">
+
+<img width="505" alt="Screenshot 2024-04-03 at 3 13 07 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/326d7583-53ef-4afd-bd2d-5daa95360418">
 
 ## Cat - File
 
 **Result**
-<img width="596" alt="Screenshot 2024-04-03 at 2 25 44 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/2072008b-0ace-486c-9d65-95eda6d8a033">
+
+<img width="600" alt="Screenshot 2024-04-03 at 3 13 28 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/cc0c9401-a545-4dce-9472-ad01564e069c">
+
 
 
