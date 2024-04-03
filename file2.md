@@ -11,6 +11,7 @@ Indicate explicitly whether the output is an error or not, and if it's an error,
 
 <img width="498" alt="Screenshot 2024-04-03 at 3 08 37 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/99317668-5110-462f-bac7-da391d5abc0a">
 
+
 *Running the command `cd` on it's own with no argument caused a switch to the `home` directory which goes by the alias, `~`.*
 
 ## CD - Directory
