@@ -16,11 +16,11 @@ Indicate explicitly whether the output is an error or not, and if it's an error,
 
 ## CD - Directory
 
-**Result**
+**Result: **
+*Running the command `cd` with a directory argument resulted in a switch to the directory given which in this case was `/workspaces`*
 
 <img width="498" alt="Screenshot 2024-04-03 at 3 08 57 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/33c8c066-7bd8-42b0-9134-02b96461180a">
 
-*Running the command `cd` with a directory argument resulted in a switch to the directory given which in this case was `/workspaces`*
 
 ## CD - File
 
