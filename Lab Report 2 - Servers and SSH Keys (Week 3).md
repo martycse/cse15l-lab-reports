@@ -46,12 +46,18 @@ class ChatServer{
         }
         int port = Integer.parseInt(args[0]);
 
-        // Assuming Server.start() is a method that starts a server and takes a port and a handler
         Server.start(port, new Handler());
     }
     
 }
 ```
 ## Code (Screenshot of workspace)
-<img width="1710" alt="Screenshot 2024-04-24 at 8 36 13 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/5fce9227-8101-48ed-9392-c4bbf5ef75e8">
+<img width="1710" alt="Screenshot 2024-04-24 at 8 41 34 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/7b7cf605-3ebc-4fc2-b3d4-e14dc77a9706">
+
+## `/add-message` Screenshot 1:
+**`/add-message?s=Hello&user=Martin`**
+<img width="1709" alt="Screenshot 2024-04-24 at 6 39 59 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/0bc17e97-ebd7-4605-9de2-f2c0a5240242">
+
+
+
 
