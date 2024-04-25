@@ -54,10 +54,22 @@ class ChatServer{
 ## Code (Screenshot of workspace)
 <img width="1710" alt="Screenshot 2024-04-24 at 8 41 34 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/7b7cf605-3ebc-4fc2-b3d4-e14dc77a9706">
 
-## `/add-message` Screenshot 1:
-**`/add-message?s=Hello&user=Martin`**
+## `/add-message` Screenshot 1, Example 1:
+**The first example below is using: `/add-message?s=Hello&user=Martin`**
 <img width="1709" alt="Screenshot 2024-04-24 at 6 39 59 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/0bc17e97-ebd7-4605-9de2-f2c0a5240242">
+**Questions and Answers**
+* Which methods in your code are called?
+1. *The methods that are called from my code are; the `handleRequest` method which is located in `ChatServer.java` under the `Handler class` as well as the getPath and getQuery methods which are implemented from URLHandler. Additionally, the `handle` method is used under the `ServerHttpHandler class` which is located in `Server.java.`*
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+2. *The relevant arguments to the `handleRequest` method include the `URI url` argument which is the url itself for the web page which is in the `Handler` class. Then, its relevant fields and arguments within the class include `user`, `message`,`chat`,`query` and `params`.*
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+3. *The `user value` takes the value of the second `query` which in this case is `Martin` and the `message value` takes in the first `query` which in this case is `Hello!!!`. The params variable is able to identify where multiple query parameters are and splits them to use within the same process. Then at the end, the `chat` field changes with this url path request and becomes "Martin: Hello!!!"*
 
-
-
-
+## `/add-message` Screenshot 2, Example 2:
+**The second example below is using: `/add-message?s=How are you&user=Yoshi`**
+<img width="1709" alt="Screenshot 2024-04-24 at 6 39 22 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/a04e77bf-a5e9-449a-bb36-7652530bf88d">
+1. *Again, the methods that are called from my code are; the `handleRequest` method which is located in `ChatServer.java` under the `Handler class` and the `handle` method under the `ServerHttpHandler class` which is located in `Server.java`*
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+2. *Again, the relevant arguments to the `handleRequest` method include the `URI url` argument which is the url itself for the web page which is in the `Handler` class. Then, its relevant fields and arguments within the class include `user`, `message`,`chat`,`query` and `params`.*
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+3. *The `user value` takes the value of the second `query` which in this case is `Yoshi` and the `message value` takes in the first `query` which in this case is `How are you?`. The params variable is able to identify where multiple query parameters are and splits them to use within the same process. Then at the end, the `chat` field changes with this url path request and becomes "Yoshi: How are you?". With this, the \n is used to create this message under the previous message "Martin: Hello!!!".*
