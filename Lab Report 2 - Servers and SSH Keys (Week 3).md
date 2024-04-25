@@ -1,5 +1,6 @@
 # Lab Report 2 - Servers and SSH Keys (Week 3)
-## Part 1
+# Part 1
+## Code (written)
 
 ```
 import java.io.IOException;
@@ -33,7 +34,7 @@ class Handler implements URLHandler {
                 }
             }
         }
-        return "Invalid request"; // Default response
+        return "Error 404: Not Found!";
     }
 }
 
@@ -51,3 +52,6 @@ class ChatServer{
     
 }
 ```
+## Code (Screenshot of workspace)
+<img width="1710" alt="Screenshot 2024-04-24 at 8 36 13 PM" src="https://github.com/martycse/cse15l-lab-reports/assets/146497948/5fce9227-8101-48ed-9392-c4bbf5ef75e8">
+
