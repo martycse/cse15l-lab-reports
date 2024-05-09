@@ -130,10 +130,13 @@ Miscellaneous Options:
 ***Ex.1):***
 
 ***Command:***
+
 ```
 marty@Martins-MacBook-Air docsearch % grep -i "SECURITY" technical/911report/chapter-1.txt
 ```
+
 ***Output:***
+
 ```
 When he checked in for his flight to Boston, Atta was selected by a computerized prescreening
 system known as CAPPS (Computer Assisted Passenger Prescreening System), created to identify passengers
@@ -145,6 +148,7 @@ al Ghamdi, checked in for United Airlines Flight 175, also bound for Los Angeles
 were obviously unused to travel; according to the United ticket agent, they had trouble understanding the standard
 security questions, and she had to go over them slowly until they gave the routine, reassuring answers..............
 ```
+
 ***Explanation:***
 
 This command is looking for the word "Security" within the chapter-1.txt in 911report file within the technical file. The reason why this is useful
@@ -153,10 +157,13 @@ is because it doesn't care about the case sensitivity of the word security. As s
 ***Ex.2):***
 
 ***Command:***
+
 ```
 marty@Martins-MacBook-Air docsearch % grep -i "faa" technical/911report/chapter-1.txt 
 ```
+
 ***Output:***
+
 ```
 When the local civil aviation security office of the Federal Aviation Administration (FAA) later investigated these security screening operations,
 the screeners recalled nothing out of the ordinary. They could not recall that any of the passengers they screened were CAPPS selectees. We asked a
@@ -167,83 +174,128 @@ in Boston, it lacked closed-circuit television surveillance so there is no docum
 checkpoint, what alarms may have been triggered, or what security procedures were administered. The FAA interviewed the screeners later; none recalled
 anything unusual or suspicious...........
 ```
+
 ***Explanation:***
 
 Now the command is looking for the word "FAA". The reason this is useful is because the text writes "FAA" in all caps like this and by searching for it as "faa"
 it still allows the search to go through. It can be useful in cases where people may want to find a certain word in a test but are unsure of the case or its usage.
 
 #### 2. `-r` Examples:
+
 ***Ex.1):***
 
 ***Command:***
-```
 
 ```
+marty@Martins-MacBook-Air docsearch % grep -r "chapter" technical/biomed
+```
+
 ***Output:***
-```
 
 ```
+technical/biomed/1472-6947-1-6.txt:          chapters in books. The authors of primary studies
+```
+
 ***Explanation:***
+
+This command recursively searched through the files within biomed in order to eventually find the word "chapter". This is useful because it shows the exact filepath and what files contain the
+certain pattern.
 
 ***Ex.2):***
 
 ***Command:***
-```
 
 ```
+marty@Martins-MacBook-Air docsearch % grep -r "chapter" technical/  
+```
+
 ***Output:***
+
+``` 
+technical//government/Env_Prot_Agen/multi102902.txt:The report is organized into eight chapters and one appendix.
+technical//government/Env_Prot_Agen/multi102902.txt:In this chapter, the resource requirements to retrofit FGD
+technical//government/Env_Prot_Agen/multi102902.txt:equipment resource estimates presented in this chapter are for LSFO
+technical//government/Env_Prot_Agen/multi102902.txt:technologies. This chapter examines the experience and issues for
+technical//government/Env_Prot_Agen/multi102902.txt:The chapter focuses on the resources needed for typical or
+technical//government/Env_Prot_Agen/multi102902.txt:In this chapter, retrofit of SCR will be assessed for coal-fired
+technical//government/Env_Prot_Agen/multi102902.txt:This chapter will explore the combination of these technologies
+technical//government/Env_Prot_Agen/multi102902.txt:multiple retrofits of control technologies, this chapter will
+technical//government/Env_Prot_Agen/multi102902.txt:further discussed under the labor section (6.2) of this chapter.
+technical//government/Env_Prot_Agen/bill.txt:this subchapter.
 ```
 
-```
 ***Explanation:***
+
+This example is a bit longer but it does the same thing except it searches the entire technical subdirectories for files that contain the word "chapter". This again is even more useful as it searches in
+more places recursively.
 
 #### 3. `-c` Examples:
+
 ***Ex.1):***
 
 ***Command:***
-```
 
 ```
+marty@Martins-MacBook-Air docsearch % grep -c "legal" technical/government/Media/5_Legal_Groups.txt
+```
+
 ***Output:***
-```
 
 ```
+4
+```
+
 ***Explanation:***
+
+This command counts the lines in which the word "legal" is at within the 5_Legal_Groups.txt file. This is useful because it helps the user check files for potential key words.
 
 ***Ex.2):***
 
 ***Command:***
+
 ```
 
 ```
+
 ***Output:***
+
 ```
 
 ```
+
 ***Explanation:***
 
 #### 4. `-l` Examples:
+
 ***Ex.1):***
 
 ***Command:***
+
 ```
 
 ```
+
 ***Output:***
+
 ```
 
 ```
+
 ***Explanation:***
 
 ***Ex.2):***
 
 ***Command:***
+
 ```
 
 ```
+
 ***Output:***
+
 ```
 
 ```
+
 ***Explanation:***
 
