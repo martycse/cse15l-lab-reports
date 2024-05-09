@@ -1,8 +1,8 @@
-# Lab Report 3 - Bugs and Commands (Week 5)
-## Part 1 - Bugs
+# <ins>Lab Report 3 - Bugs and Commands (Week 5)</ins>
+## <ins>Part 1 - Bugs</ins>
 
-**1 and 2). Below is the `associated code` for both the succesful test and the failed test**
-**(1 & 2).**
+#### **1 & 2). Below is the `associated code` for both the succesful test and the failed test**
+
 ```
 public class ArrayExamples {
 
@@ -81,3 +81,169 @@ public class ArrayExamples {
       arr[i] = temp[arr.length - i - 1];
   }
 ```
+
+**5). Brief description why the fix addresses the issue.** 
+
+*"The fix of the code this way addresses and fixes the issue because the original code did not make a new array. This is a problem because it keeps overwriting the original array elements with different elements within it. By fixing the code in this way, creating a new temporary array, it feeds this temp array with the elements of the old array and avoids replacing the original array entirely and allows the array to properly reverse."*
+
+## <ins>Part 2 - Researching Commands: `grep`</ins>
+
+### <ins>Command Line Options for `grep`</ins>
+
+`grep`: searches for patterns within a file
+1. `-i` - this command ignores cases therefore it allows the command to find patters and not be case sensitive.
+2. `-r` - can search patterns in subdirectories over and over.
+3. `-c` - counts how many lines the specified pattern appears in a file.
+4. `-l` - prints the filenames provided that contain the pattern provided.
+
+***(Command Line Options descriptions provided by ChatGPT)***
+
+*ChatGPT Prompt: "what are some command line options for grep in bash"*
+
+*ChatGPT Output: "Grep is a powerful command-line tool used for searching text patterns in files or streams. Here are some common options and flags you can use with grep in Bash: Basic Usage:
+grep pattern file: Search for a pattern in a file.
+grep pattern file1 file2 ...: Search for a pattern in multiple files.
+Options for Output Control:
+-i: Ignore case distinctions in patterns and data.
+-v: Invert the match, i.e., display non-matching lines.
+-l: Display only the names of files that contain the match.
+-L: Display only the names of files that do not contain the match.
+-n: Display line numbers along with matching lines.
+-c: Display count of matching lines for each input file.
+--color=auto: Highlight matching text in color (if your terminal supports it).
+Options for Pattern Matching:
+-E or --extended-regexp: Interpret the pattern as an extended regular expression (ERE).
+-F or --fixed-strings: Interpret the pattern as a list of fixed strings (no regex).
+-w: Match whole words only.
+-x: Match whole lines only.
+Options for Recursive Search:
+-r or -R: Recursively search subdirectories.
+-l (lowercase L): List only file names that contain matches (useful with -r).
+Miscellaneous Options:
+-q or --quiet or --silent: Quiet mode; suppress all output.
+-A num or -B num or -C num: Show num lines of context after, before, or around the match."*
+
+### <ins>8 Command Line Examples:</ins>
+
+#### 1. `-i` Examples:
+
+***Ex.1):***
+
+***Command:***
+```
+marty@Martins-MacBook-Air docsearch % grep -i "SECURITY" technical/911report/chapter-1.txt
+```
+***Output:***
+```
+When he checked in for his flight to Boston, Atta was selected by a computerized prescreening
+system known as CAPPS (Computer Assisted Passenger Prescreening System), created to identify passengers
+ who should be subject to special security measures. Under security rules in place at the time, the only
+consequence of Atta's selection by CAPPS was that his checked bags were held off the plane until it was
+confirmed that he had boarded the aircraft. This did not hinder Atta's plans.
+In another Logan terminal, Shehhi, joined by Fayez Banihammad, Mohand al Shehri, Ahmed al Ghamdi, and Hamza
+al Ghamdi, checked in for United Airlines Flight 175, also bound for Los Angeles. A couple of Shehhi's colleagues
+were obviously unused to travel; according to the United ticket agent, they had trouble understanding the standard
+security questions, and she had to go over them slowly until they gave the routine, reassuring answers..............
+```
+***Explanation:***
+
+This command is looking for the word "Security" within the chapter-1.txt in 911report file within the technical file. The reason why this is useful
+is because it doesn't care about the case sensitivity of the word security. As shown, I used "SECURITY" and still received the word no matter what.
+
+***Ex.2):***
+
+***Command:***
+```
+marty@Martins-MacBook-Air docsearch % grep -i "faa" technical/911report/chapter-1.txt 
+```
+***Output:***
+```
+When the local civil aviation security office of the Federal Aviation Administration (FAA) later investigated these security screening operations,
+the screeners recalled nothing out of the ordinary. They could not recall that any of the passengers they screened were CAPPS selectees. We asked a
+screening expert to review the videotape of the hand-wanding, and he found the quality of the screener's work to have been "marginal at best." The
+screener should have "resolved" what set off the alarm; and in the case of both Moqed and Hazmi, it was clear that he did not.
+The four men passed through the security checkpoint, owned by United Airlines and operated under contract by Argenbright Security. Like the checkpoints
+in Boston, it lacked closed-circuit television surveillance so there is no documentary evidence to indicate when the hijackers passed through the
+checkpoint, what alarms may have been triggered, or what security procedures were administered. The FAA interviewed the screeners later; none recalled
+anything unusual or suspicious...........
+```
+***Explanation:***
+
+Now the command is looking for the word "FAA". The reason this is useful is because the text writes "FAA" in all caps like this and by searching for it as "faa"
+it still allows the search to go through. It can be useful in cases where people may want to find a certain word in a test but are unsure of the case or its usage.
+
+#### 2. `-r` Examples:
+***Ex.1):***
+
+***Command:***
+```
+
+```
+***Output:***
+```
+
+```
+***Explanation:***
+
+***Ex.2):***
+
+***Command:***
+```
+
+```
+***Output:***
+```
+
+```
+***Explanation:***
+
+#### 3. `-c` Examples:
+***Ex.1):***
+
+***Command:***
+```
+
+```
+***Output:***
+```
+
+```
+***Explanation:***
+
+***Ex.2):***
+
+***Command:***
+```
+
+```
+***Output:***
+```
+
+```
+***Explanation:***
+
+#### 4. `-l` Examples:
+***Ex.1):***
+
+***Command:***
+```
+
+```
+***Output:***
+```
+
+```
+***Explanation:***
+
+***Ex.2):***
+
+***Command:***
+```
+
+```
+***Output:***
+```
+
+```
+***Explanation:***
+
