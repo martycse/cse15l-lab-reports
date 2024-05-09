@@ -221,7 +221,7 @@ technical//government/Env_Prot_Agen/multi102902.txt:In this chapter, retrofit of
 technical//government/Env_Prot_Agen/multi102902.txt:This chapter will explore the combination of these technologies
 technical//government/Env_Prot_Agen/multi102902.txt:multiple retrofits of control technologies, this chapter will
 technical//government/Env_Prot_Agen/multi102902.txt:further discussed under the labor section (6.2) of this chapter.
-technical//government/Env_Prot_Agen/bill.txt:this subchapter.
+technical//government/Env_Prot_Agen/bill.txt:this subchapter.....................
 ```
 
 ***Explanation:***
@@ -254,16 +254,19 @@ This command counts the lines in which the word "legal" is at within the 5_Legal
 ***Command:***
 
 ```
-
+grep -c "organism" technical/biomed/1471-2091-3-13.txt
 ```
 
 ***Output:***
 
 ```
-
+2
 ```
 
 ***Explanation:***
+
+This command counts the lines in which the word "organism" is at within the 1471-2091-3-13.txt file. This is useful because it helps the user check files for potential key words.
+
 
 #### 4. `-l` Examples:
 
