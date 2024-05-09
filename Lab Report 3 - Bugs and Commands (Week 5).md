@@ -146,7 +146,8 @@ confirmed that he had boarded the aircraft. This did not hinder Atta's plans.
 In another Logan terminal, Shehhi, joined by Fayez Banihammad, Mohand al Shehri, Ahmed al Ghamdi, and Hamza
 al Ghamdi, checked in for United Airlines Flight 175, also bound for Los Angeles. A couple of Shehhi's colleagues
 were obviously unused to travel; according to the United ticket agent, they had trouble understanding the standard
-security questions, and she had to go over them slowly until they gave the routine, reassuring answers..............
+security questions, and she had to go over them slowly until they gave the routine, reassuring answers
+...
 ```
 
 ***Explanation:***
@@ -172,7 +173,8 @@ screener should have "resolved" what set off the alarm; and in the case of both 
 The four men passed through the security checkpoint, owned by United Airlines and operated under contract by Argenbright Security. Like the checkpoints
 in Boston, it lacked closed-circuit television surveillance so there is no documentary evidence to indicate when the hijackers passed through the
 checkpoint, what alarms may have been triggered, or what security procedures were administered. The FAA interviewed the screeners later; none recalled
-anything unusual or suspicious...........
+anything unusual or suspicious
+...
 ```
 
 ***Explanation:***
@@ -221,7 +223,8 @@ technical//government/Env_Prot_Agen/multi102902.txt:In this chapter, retrofit of
 technical//government/Env_Prot_Agen/multi102902.txt:This chapter will explore the combination of these technologies
 technical//government/Env_Prot_Agen/multi102902.txt:multiple retrofits of control technologies, this chapter will
 technical//government/Env_Prot_Agen/multi102902.txt:further discussed under the labor section (6.2) of this chapter.
-technical//government/Env_Prot_Agen/bill.txt:this subchapter.....................
+technical//government/Env_Prot_Agen/bill.txt:this subchapter
+...
 ```
 
 ***Explanation:***
@@ -275,30 +278,59 @@ This command counts the lines in which the word "organism" is at within the 1471
 ***Command:***
 
 ```
-
+marty@Martins-MacBook-Air docsearch % grep -l "organism" technical/plos/*.txt
 ```
 
 ***Output:***
 
 ```
-
+technical/plos/journal.pbio.0020012.txt
+technical/plos/journal.pbio.0020019.txt
+technical/plos/journal.pbio.0020035.txt
+technical/plos/journal.pbio.0020042.txt
+technical/plos/journal.pbio.0020043.txt
+technical/plos/journal.pbio.0020053.txt
+technical/plos/journal.pbio.0020068.txt
+...
 ```
 
 ***Explanation:***
+
+I used the command to find "organism" in all the text files within the plos file. This command is useful because it can be used in like the way I used it to find a pattern
+within a set of files.
 
 ***Ex.2):***
 
 ***Command:***
 
 ```
-
+marty@Martins-MacBook-Air docsearch % grep -l "law" technical/government/About_LSC/*.txt
 ```
 
 ***Output:***
 
 ```
-
+technical/government/About_LSC/CONFIG_STANDARDS.txt
+technical/government/About_LSC/Comments_on_semiannual.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+technical/government/About_LSC/ODonnell_et_al_v_LSCdecision.txt
+technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+technical/government/About_LSC/Progress_report.txt
+technical/government/About_LSC/Protocol_Regarding_Access.txt
+technical/government/About_LSC/Special_report_to_congress.txt
+technical/government/About_LSC/State_Planning_Report.txt
+technical/government/About_LSC/State_Planning_Special_Report.txt
+technical/government/About_LSC/Strategic_report.txt
+technical/government/About_LSC/commission_report.txt
+technical/government/About_LSC/conference_highlights.txt
+technical/government/About_LSC/diversity_priorities.txt
+technical/government/About_LSC/reporting_system.txt
 ```
 
 ***Explanation:***
+
+This command looks for the word "law" within the txt files of About_LSC. Just like the previous one, it is useful to find the txt files within a specific directory that contain
+a given pattern.
 
