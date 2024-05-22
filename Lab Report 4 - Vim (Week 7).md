@@ -20,9 +20,9 @@
 
 ***Key Presses:***
 
-* `CTRL-C git@github.com:martycse/lab7.git`
+* `Command-C git@github.com:martycse/lab7.git`
 
-* `CTRL-V git@github.com:martycse/lab7.git`
+* `Command-V git@github.com:martycse/lab7.git`
 
 * `ENTER`
 
