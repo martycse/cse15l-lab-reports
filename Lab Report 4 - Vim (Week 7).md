@@ -10,7 +10,7 @@
 * `ssh map018@ieng6.ucsd.edu`
 * `<Enter>`
 
-***Summary:*** *This part was pretty simple, I just opened a new terminal and logged into IENG6 through the terminal using the ssh command and my id and then pressing ENTER. This resulted in a login displaying different information of the server and my server key.*
+***Summary:*** *This part was pretty simple, I just opened a `new terminal` and logged into `IENG6` through the terminal using the `ssh` command and my id and then pressing `ENTER`. This resulted in a login displaying different information of the server and my server key.*
 
 ## Step 5
 
@@ -26,7 +26,7 @@
 
 * `<ENTER>`
 
-***Summary:*** *This command used an SSH fork link and cloned it using the git clone command. This was done inside the ssh server which added the contents to the server.*
+***Summary:*** *This command used an `SSH fork link` and cloned it using the `git clone` command. This was done inside the `ssh` server which added the contents to the server.*
 
 
 ## Step 6
@@ -80,7 +80,7 @@ them quite easily with the replace tool as well as saving it too.*
 
 * `<up>` `<up>` `<up>` `<Enter>`
 
-***Summary:*** *The 3 <up> key presses located the bash test.sh command and I simply clicked enter when I found it. This resulted in the tests running once more and showing they were now passing properly.*
+***Summary:*** *The 3 <up> key presses located the `bash test.sh` command and I simply clicked `enter` when I found it. This resulted in the tests running once more and showing they were now passing properly.*
 
 ## Step 9
 
